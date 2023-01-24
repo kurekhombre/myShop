@@ -7,3 +7,9 @@
 -   DONE Create a simple base.html file
 -   DONE Extend base.html and use for front page
 -   DONE Add products to front page
+-   DONE Create app for products
+-   DONE Create database model for category
+-   DONE Add categories in admin interface
+-   DONE Create database model for products
+-   DONE Add a few products in the admin interface
+-   DONE Show products on the frontpage
