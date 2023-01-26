@@ -30,3 +30,4 @@
 -   DONE Set up html for the sign up/log in page
 -   DONE Add product images
 -   DONE sign up, log in/out functionality
+-   DONE make html for the cart and checkout pages
