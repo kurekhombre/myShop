@@ -13,11 +13,11 @@
                 <div class="flex space-x-6">
                     <div class="w-1/2 mb-4">
                         <label for="first_name" class="inline-block mb-2">First name</label>
-                        <input type="text" name="first_name" id="first_name" class="w-full p-3 rounded-xl">
+                        <input type="text" name="first_name" id="first_name" class="w-full p-3 rounded-xl" value="{{request.user.first_name}}">
                     </div>
                     <div class="w-1/2 mb-4">
                         <label for="last_name" class="inline-block mb-2">Last name</label>
-                        <input type="text" name="last_name" id="last_name" class="w-full p-3 rounded-xl">
+                        <input type="text" name="last_name" id="last_name" class="w-full p-3 rounded-xl" value="{{request.user.last_name}}">
                     </div>
                 </div>
 
@@ -43,7 +43,7 @@
                 <h2 class="mb-5 uppercase text-lg">Contact Information</h2>
                 <div class="mb-4">
                     <label for="email" class="inline-block mb-2">E-mail</label>
-                    <input type="email" name="email" id="email" class="w-full p-3 rounded-xl">
+                    <input type="email" name="email" id="email" class="w-full p-3 rounded-xl" value="{{request.user.email}}">
                 </div>
 
                 <div class="mb-4">
