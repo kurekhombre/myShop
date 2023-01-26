@@ -20,3 +20,6 @@
 -   DONE Fix dynamic information in product lists
 -   DONE Make product list reusable
 -   DONE Show product detail page
+-   DONE Create django app for the cart
+-   DONE Create a cart Class
+-   DONE Make cart globally available
