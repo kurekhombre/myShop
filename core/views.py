@@ -1,18 +1,30 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from django.contrib.auth import login
 from django.db.models import Q
 from product.models import Product, Category
-
+from .froms import SignUpForm
 
 def frontpage(request):
     products = Product.objects.all()[0:8]
     return render(request, 'core/frontpage.html', {'products': products})
 
 
-def signup(request):
-    return render(request, 'core/signup.html')
+def sign_up(request):
+    if request.method == 'POST':
+        form = SignUpForm(request.POST)
+
+        if form.is_valid():
+            user = form.save()
+            login(request, user)
+
+            return redirect('/')
+    else:
+        form = SignUpForm()
+
+    return render(request, 'core/signup.html', {'form': form})
 
 
-def login(request):
+def log_in(request):
     return render(request, 'core/login.html')
 
 
