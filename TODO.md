@@ -13,3 +13,7 @@
 -   DONE Create database model for products
 -   DONE Add a few products in the admin interface
 -   DONE Show products on the frontpage
+-   DONE Create html for the category/shop & detail page
+-   DONE Show categories in the sidebar
+-   DONE Show active category
+-   DONE Simple product search
