@@ -17,3 +17,6 @@
 -   DONE Show categories in the sidebar
 -   DONE Show active category
 -   DONE Simple product search
+-   DONE Fix dynamic information in product lists
+-   DONE Make product list reusable
+-   DONE Show product detail page
