@@ -31,3 +31,12 @@
 -   DONE Add product images
 -   DONE sign up, log in/out functionality
 -   DONE make html for the cart and checkout pages
+-   DONE add to cart from search/lists
+-   DONE fix links in the menu
+-   DONE separate urls files
+-   DONE add block title for the templates
+-   DONE Show correct products in the cart
+-   DONE Show total price in the cart and in the checkout
+-   DONE Only allow checkout for authenticated users
+-   DONE Show user information in the checkout
+-   DONE Change checkout link in the cart
