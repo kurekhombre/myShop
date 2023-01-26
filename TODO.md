@@ -23,3 +23,7 @@
 -   DONE Create django app for the cart
 -   DONE Create a cart Class
 -   DONE Make cart globally available
+-   DONE Create view for adding to cart
+-   DONE Include htmx cdn
+-   DONE Create reusable menu cart html
+-   DONE Add to cart
