@@ -31,3 +31,4 @@
 -   DONE Add product images
 -   DONE sign up, log in/out functionality
 -   DONE make html for the cart and checkout pages
+-   DONE add to cart from frontpage/shop views
