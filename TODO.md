@@ -27,3 +27,5 @@
 -   DONE Include htmx cdn
 -   DONE Create reusable menu cart html
 -   DONE Add to cart
+-   DONE Set up html for the sign up/log in page
+-   Add product images
