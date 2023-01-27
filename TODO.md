@@ -50,4 +50,10 @@
 -   DONE Create view and url for update cart
 -   DONE Add htmx attributes for cart buttons
 -   DONE Update total price
+-   DONE Create app for orders
+-   DONE Create database model for orders
+-   DONE Create view and url for the checkout
+-   DONE List correct orders in my account
+-   DONE Fix decrement to zero items
+
 
