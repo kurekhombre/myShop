@@ -40,3 +40,7 @@
 -   DONE Only allow checkout for authenticated users
 -   DONE Show user information in the checkout
 -   DONE Change checkout link in the cart
+-   DONE HTML for the myaccount page
+-   DONE add link to my account
+-   DONE edit accout page
+-   DONE edit account functionality
