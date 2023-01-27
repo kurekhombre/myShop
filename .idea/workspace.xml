@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ebbfc360-96cc-41bf-954f-f5eb57515331" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/cart/cart.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/templates/cart/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart/templates/cart/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/templates/cart/partials/cart_item.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart/templates/cart/partials/cart_item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/templates/cart/partials/cart_total.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart/templates/cart/partials/cart_total.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/cart/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/order/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/templates/product/partials/product_list_item.html" beforeDir="false" afterPath="$PROJECT_DIR$/product/templates/product/partials/product_list_item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/templates/product/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/product/templates/product/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
