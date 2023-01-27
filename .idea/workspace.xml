@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ebbfc360-96cc-41bf-954f-f5eb57515331" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/TODO.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart/templates/cart/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart/templates/cart/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/templates/core/myaccount.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/myaccount.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cart/cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/cart/cart.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
