@@ -26,7 +26,7 @@ class Product(models.Model):
     name = models.CharField(max_length=255)
     slug = models.SlugField(blank=True, null=True)
     description = models.TextField(blank=True, null=True)
-    price = models.DecimalField(max_digits=10, decimal_places=2)
+    price = models.IntegerField(blank=True, null=True)
     created_at = models.DateTimeField(auto_now_add=True)
     image = models.ImageField(upload_to='uploads/', blank=True, null=True)
     thumbnail = models.ImageField(upload_to='uploads/', blank=True, null=True)
@@ -40,6 +40,9 @@ class Product(models.Model):
     def save(self, *args, **kwargs):
         self.slug = slugify(self.name)
         super(Product, self).save(*args, **kwargs)
+
+    def get_display_price(self):
+        return self.price / 100
 
     def get_thumbnail(self):
         if self.thumbnail:

@@ -7,7 +7,7 @@
   <div class="w-3/4 pl-6">
     <div class="flex justify-between">
       <a href="#" class="text-lg">{{item.product.name}}</a>
-      <span class="mb-6 pt-1 text-gray-500">{{item.total_price}}€</span>
+      <span class="mb-6 pt-1 text-gray-500">{{item.total_price|stringformat:".2f"}} PLN</span>
     </div>
       <hr>
 
