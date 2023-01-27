@@ -45,3 +45,9 @@
 -   DONE edit accout page
 -   DONE edit account functionality
 -   DONE Move cart item html to separate file
+-   DONE Add htmx wrapper for menu cart
+-   DONE Create view and url for menu cart
+-   DONE Create view and url for update cart
+-   DONE Add htmx attributes for cart buttons
+-   DONE Update total price
+
