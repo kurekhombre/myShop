@@ -57,5 +57,6 @@
 -   DONE Fix decrement to zero items
 -   DONE Change price DecimalField to IntegerField because of Stripe issues
 -   DONE install, setup stripe and include public key in the checkout view
+-   DONE create view for checkout session and validate checkout form and implement stripe
 
 
