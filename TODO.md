@@ -55,5 +55,6 @@
 -   DONE Create view and url for the checkout
 -   DONE List correct orders in my account
 -   DONE Fix decrement to zero items
+-   DONE Change price DecimalField to IntegerField because of Stripe issues
 
 

@@ -25,7 +25,7 @@ class Order(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 
     paid = models.BooleanField(default=False)
-    paid_amount = models.DecimalField(max_digits=10, decimal_places=2)
+    paid_amount = models.IntegerField(blank=True, null=True)
 
     status = models.CharField(max_length=20, choices=STATUS_CHOICES, default=ORDERED)
 
@@ -33,6 +33,6 @@ class Order(models.Model):
 class OrderItem(models.Model):
     order = models.ForeignKey(Order, related_name='items', on_delete=models.CASCADE)
     product = models.ForeignKey(Product, related_name='items', on_delete=models.CASCADE)
-    price = models.DecimalField(max_digits=10, decimal_places=2)
+    price = models.IntegerField(blank=True, null=True)
     quantity = models.IntegerField(default=1)
 

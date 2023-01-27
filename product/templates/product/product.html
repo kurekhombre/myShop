@@ -7,7 +7,7 @@
   </div>
   <div class="information w-full lg:w-2/5 lg:p-6">
     <h1 class="text-2xl">{{ product.name }}</h1>
-    <p class="mt-1 text-gray-400">{{ product.price }}€</p>
+    <p class="mt-1 text-gray-400">{{ product.get_display_price|stringformat:".2f" }} PLN</p>
     {% if product.description %}
     <p class="mt-6 text-gray-700">{{ product.description }}</p>
     {% endif %}

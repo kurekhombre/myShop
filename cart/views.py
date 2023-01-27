@@ -37,7 +37,7 @@ def update_cart(request, product_id, action):
                 'get_thumbnail': product.get_thumbnail(),
                 'price': product.price
             },
-            'total_price': (quantity * product.price),
+            'total_price': (quantity * product.price) / 100,
             'quantity': quantity
         }
     else:
@@ -56,6 +56,7 @@ def checkout(request):
 
 def hx_menu_cart(request):
     return render(request, 'cart/menu_cart.html')
+
 
 def hx_cart_total(request):
     return render(request, 'cart/partials/cart_total.html')
