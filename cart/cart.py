@@ -4,6 +4,15 @@ from product.models import Product
 
 
 class Cart(object):
+    """
+    The Cart class is a subclass of the object class. It has a constructor that takes a request object
+    as a parameter. The constructor initializes the session and cart variables. The cart variable is a
+    dictionary that stores the product id and quantity of each product in the cart. The __iter__ method
+    iterates through the cart dictionary and adds the product object to each item in the cart. The
+    __len__ method returns the total number of items in the cart. The save method saves the cart to the
+    session. The add method adds a product to the cart. The remove method removes a product from the
+    cart. The get_total_cost method returns the total cost of the items in the cart.
+    """
     def __init__(self, request):
         self.session = request.session
         cart = self.session.get(settings.CART_SESSION_ID)
