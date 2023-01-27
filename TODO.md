@@ -44,3 +44,4 @@
 -   DONE add link to my account
 -   DONE edit accout page
 -   DONE edit account functionality
+-   DONE Move cart item html to separate file
