@@ -52,12 +52,12 @@ def update_cart(request, product_id, action):
 
 @login_required
 def checkout(request):
-    return render(request, 'cart/checkout.html')
+    pub_key = settings.STRIPE_API_KEY_PUBLISHABLE
+    return render(request, 'cart/checkout.html', {'pub_key': pub_key})
 
 
 def hx_menu_cart(request):
-    pub_key = settings.STRIPE_API_KEY_PUBLISHABLE
-    return render(request, 'cart/menu_cart.html', {'pub_key': pub_key})
+    return render(request, 'cart/menu_cart.html')
 
 
 def hx_cart_total(request):
