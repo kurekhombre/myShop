@@ -58,5 +58,7 @@
 -   DONE Change price DecimalField to IntegerField because of Stripe issues
 -   DONE install, setup stripe and include public key in the checkout view
 -   DONE create view for checkout session and validate checkout form and implement stripe
-
+-   DONE create success page
+-   DONE clear page
+-   DONE show correct prices in the orders page
 

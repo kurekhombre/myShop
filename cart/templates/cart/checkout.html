@@ -1,5 +1,7 @@
 {% extends 'core/base.html' %}
+
 {% block title %}Checkout{% endblock %}
+
 {% block content %}
 <div class="max-w-6xl mx-auto flex flex-wrap items-start py-6 px-6 xl:px-0">
     <div class="products w-full lg:w-3/4">
@@ -53,6 +55,8 @@
                 </div>
             </div>
 
+            <div class="mb-6 p-6 bg-gray-100 rounded-xl" id="errors">
+            </div>
         </div>
     </div>
 
@@ -74,37 +78,52 @@
 </div>
 {% endblock %}
 
-{% block scripts %}<script type="application/javascript" src="https://js.stripe.com/v3/"></script>
+{% block scripts %}
+<script type="application/javascript" src="https://js.stripe.com/v3/"></script>
 <script>
+    let el = document.querySelector('#errors')
+
     function validateForm(data) {
         let errors = []
 
         if (data.first_name === '') {
-            errors.push('First name is empty')
+            errors.push('First name is empty!')
         }
 
         if (data.last_name === '') {
-            errors.push('Last name is empty')
+            errors.push('Last name is empty!')
         }
 
         if (data.email === '') {
-            errors.push('Email is empty')
+            errors.push('Email is empty!')
         }
 
         if (data.phone === '') {
-            errors.push('Phone is empty')
+            errors.push('Phone is empty!')
         }
 
         if (data.address === '') {
-            errors.push('Address is empty')
+            errors.push('Address is empty!')
         }
 
         if (data.zipcode === '') {
-            errors.push('Zipcode is empty')
+            errors.push('Zipcode is empty!')
         }
 
         if (data.place === '') {
-            errors.push('Place is empty')
+            errors.push('Place is empty!')
+        }
+
+        if (errors.length > 0) {
+            let html = '<ul class="flex flex-wrap space-y-2">';
+
+            errors.forEach((error) => {
+                html += '<li class="w-full rounded-xl bg-red-400 text-white p-3">' + error + '</li>';
+            })
+
+            el.innerHTML = html + '</ul>';
+        } else {
+            el.innerHTML = '';
         }
 
         return errors
