@@ -33,7 +33,11 @@
         <button class="py-4 px-6 rounded-xl text-white bg-green-400 hover:bg-green-700">Submit</button>
       </div>
     </form>
+    <div class="pt-5">
+      <p>Dont have an account?</p>
+      <a href="{% url 'signup' %}"><b>Register now</b></a>
+    </div>
   </div>
 </div>
-
+<input type="hidden" name="next" id="next" value="{{ next }}">
 {% endblock %}

@@ -4,9 +4,8 @@
     <list default="true" id="ebbfc360-96cc-41bf-954f-f5eb57515331" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TODO.md" beforeDir="false" afterPath="$PROJECT_DIR$/TODO.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/templates/product/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/product/templates/product/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/core/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/core/signup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675077007547</updated>
-      <workItem from="1675077010748" duration="4924000" />
+      <workItem from="1675077010748" duration="6318000" />
     </task>
     <servers />
   </component>
