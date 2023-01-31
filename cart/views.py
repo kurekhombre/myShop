@@ -17,6 +17,9 @@ def cart(request):
     return render(request, 'cart/cart.html')
 
 
+def success(request):
+    return render(request, 'cart/success.html')
+
 def update_cart(request, product_id, action):
     cart = Cart(request)
     if action == 'increment':
