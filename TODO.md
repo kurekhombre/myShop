@@ -64,4 +64,6 @@
 -   DONE create new database model for reviews
 -   DONE create form for reviews
 -   DONE display reviews and avg rating
+-   DONE redirect to checkout after loggin in
+-   DONE signup link in login page and login link in signup
 
