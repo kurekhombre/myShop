@@ -61,4 +61,7 @@
 -   DONE create success page
 -   DONE clear page
 -   DONE show correct prices in the orders page
+-   DONE create new database model for reviews
+-   DONE create form for reviews
+-   DONE display reviews and avg rating
 
