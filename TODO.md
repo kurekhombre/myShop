@@ -66,4 +66,12 @@
 -   DONE display reviews and avg rating
 -   DONE redirect to checkout after loggin in
 -   DONE signup link in login page and login link in signup
+-   DONE POSTGRES DB
+-   DONE Dockerize project
 
+
+-   redirect to cart after signing in
+-   fix links to the product in the cart
+
+## Tests
+- install pytest
