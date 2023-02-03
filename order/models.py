@@ -5,7 +5,6 @@ from product.models import Product
 
 
 class Order(models.Model):
-
     ORDERED = 'ordered'
     SHIPPED = 'shipped'
     STATUS_CHOICES = (
