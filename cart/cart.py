@@ -13,6 +13,7 @@ class Cart(object):
     session. The add method adds a product to the cart. The remove method removes a product from the
     cart. The get_total_cost method returns the total cost of the items in the cart.
     """
+
     def __init__(self, request):
         self.session = request.session
         cart = self.session.get(settings.CART_SESSION_ID)
@@ -60,7 +61,6 @@ class Cart(object):
     def clear(self):
         del self.session[settings.CART_SESSION_ID]
         self.session.modified = True
-
 
     def get_total_cost(self):
         for p in self.cart.keys():

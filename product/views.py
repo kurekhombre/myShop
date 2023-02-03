@@ -1,10 +1,9 @@
-from django.shortcuts import render, get_object_or_404, redirect
+from django.shortcuts import render, redirect
 
 from product.models import Product, Review
 
 
 def product(request, slug):
-    # product = get_object_or_404(Product, slug=slug)
     product = Product.objects.get(slug=slug)
 
     if request.method == "POST":
